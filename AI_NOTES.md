@@ -155,7 +155,7 @@ This validates an important edge case and ensures the API returns the expected H
 
 ---
 
-# 2. Validation Performed
+Validation Performed
 
 Every AI-generated suggestion was reviewed before being accepted.
 
@@ -167,12 +167,3 @@ The following validation steps were performed:
 - Confirmed that invalid inputs return the expected HTTP status codes.
 - Verified filtering, deletion, and total calculation logic using multiple test cases.
 
----
-
-# 3. AI Suggestions Not Used
-
-The following AI suggestions were intentionally not adopted:
-
-- Docker support was not implemented because Swagger/OpenAPI documentation was selected as the optional bonus feature.
-- Additional endpoints (such as expense existence or search endpoints) were omitted since they were outside the assignment requirements.
-- Database integration was intentionally avoided because the assignment explicitly allowed in-memory storage.
