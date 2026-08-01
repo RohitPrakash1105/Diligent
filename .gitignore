@@ -1,0 +1,7 @@
+DS Store
+__pycache__
+.env
+*.db
+venv
+vscode/
+png
